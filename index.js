@@ -3,7 +3,7 @@ const express = require('express')
 
 // Route Handlers - methods available (get, post, put, delete and patch)
 app.get('/', (req, res) => {
-    res.send({hi: process.env.NVM_BIN});
+    res.send({hi: process.env});
 });
 
 // Listerner
